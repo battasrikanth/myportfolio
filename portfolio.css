@@ -353,10 +353,12 @@ width: max-content;
 @media  screen and (max-width:852px) {
 .Hme{
   padding-top:1rem !important;
+  padding-left:0px ;
+  margin: 0px;
 }
   .txt{
       flex-basis: 100%;
-      padding: 5px;
+      padding: 0px;
       margin:auto;
   }
   .txxt{
