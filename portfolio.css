@@ -130,6 +130,7 @@ margin: 2rem auto 1rem;
 .view-button{
 position:absolute;
 visibility:hidden;
+max-width: 150px;
 bottom:0.5rem;
 left: 50%;
 transform: translateX(-50%);
@@ -147,7 +148,7 @@ transform: translateX(-50%) scale(1.1) ;
 div[class*=projectcard] img{
 width: 100%;
 }
-a ,.projectbox a,.projectbox a:hover, a:hover{
+a ,.projectbox a,.projectbox a:hover, a:hover,button:hover #qwerty{
 text-decoration: none;
 color:white;
 }
@@ -331,6 +332,11 @@ filter:drop-shadow(10px 10px 10px black);
 }
 p.lastintro{
 margin:20px
+}
+#qwerty {
+  text-decoration: none;
+color:black;
+
 }
 
 @media screen and (max-width:1089px) and (min-width:200px) {
