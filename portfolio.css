@@ -116,7 +116,7 @@ flex-basis: 40% !important;
 text-align: center;
 margin: 2rem 0px;
 }
-.projectcard1 .thumbnail{
+.projectcard1 .thumbnail,.projectcard6 .thumbnail{
   border: 1px solid black;
 }
 .thumbnail{
