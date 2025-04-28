@@ -10,9 +10,9 @@
     <title>batta srikanth's portfolio</title>
   
   </head>
-  <body>
+  <body id="Hme">
     <div id="navbar">
-    <nav class="navbar navbar-expand-lg pt-4 pb-4 navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand my-name font-weight-bolder" href="#Hme">BATTA SRIKANTH</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -38,12 +38,12 @@
       </div>
     </nav>
   </div>
-  <div id="Hme" class="Hme">
+  <div class="Hme">
       <div class="txt">
         <div class="txxt">
         <p id="greet">Hello, I'm</p>
         <p id="nme"> Batta Srikanth</p>
-        <p id="ls">Frontend Developer</p3>
+        <p id="ls">FullStack Developer</p>
           <br>
        <button class="hm-btn cv" ><a id="qwerty" href="B Srikanth_java_fullstack_developer.pdf" download="battaSrikanthResume">Download CV</a></button>
       <a href="#cntctm"> <button class="hm-btn ct">Contact info</button></a>
@@ -113,7 +113,12 @@
     <p class="section-intro">Browse My Recent</p>
     <p class="sectionheading">Projects</p>
     <section class="projectbox">
-      
+      <div class="projectcard1">  <div class="thumbnail">
+        <img src="images/hotelbookingtmb.png" >
+        <button class="view-button"> <a href="https://stayease21.netlify.app/">View</a></button>
+        </div>
+        <p class="projecttitle">Hotel Booking wep App</p>
+      </div>
       <div class="projectcard2">
         <div class="thumbnail">
         <img src="images/weathertmb.png" >
@@ -121,43 +126,44 @@
         </div>
         <p class="projecttitle">Weather App</p>
       </div>
-      <div class="projectcard3">  <div class="thumbnail">
-        <img src="images/netflixtmb.png ">
-        <button class="view-button"> <a href="https://battasrikanth.github.io/netflix-clone/">View</a></button>
-        </div>
-        <p class="projecttitle">Latest Netflix Homepage</p>
-      </div>
-      <div class="projectcard4">  <div class="thumbnail">
-        <img src="images/toDoList.png" >
-        <button class="view-button"> <a href="https://battasrikanth.github.io/toDoList/">View</a></button>
-        </div>
-        <p class="projecttitle">ToDoList</p>
-      </div>
-      <div class="projectcard5">  <div class="thumbnail">
-        <img src="images/Calculator.png" >
-        <button class="view-button"> <a href="https://battasrikanth.github.io/calculator/">View</a></button>
-        </div>
-        <p class="projecttitle">Calculator</p>
-      </div>
-     <div class="projectcard6">  <div class="thumbnail">
-        <img src="images/formtmb.png" >
-        <button class="view-button"> <a href="https://battasrikanth.github.io/responsiveForm/">View</a></button>
-        </div>
-        <p class="projecttitle">Responsive form</p>
-      </div>
-      <div class="projectcard7">  <div class="thumbnail">
-        <img src="images/googletmb.png" >
-        <button class="view-button"> <a href="https://battasrikanth.github.io/Google-Clone/">View</a></button>
-        </div>
-        <p class="projecttitle">Google Home Page Clone</p>
-      </div>
-      <div class="projectcard8">  <div class="thumbnail">
-        <img src="images/youtubetmb.png" >
-        <button class="view-button"> <a href="https://battasrikanth.github.io/Youtube-UI-Clone/">View</a></button>
-        </div>
-        <p class="projecttitle">YouTube UI Clone</p>
-      </div>
     </section>
+    <div class="projectcard3">  <div class="thumbnail">
+      <img src="images/netflixtmb.png ">
+      <button class="view-button"> <a href="https://battasrikanth.github.io/netflix-clone/">View</a></button>
+      </div>
+      <p class="projecttitle">Latest Netflix Homepage</p>
+    </div>
+    <div class="projectcard4">  <div class="thumbnail">
+      <img src="images/toDoList.png" >
+      <button class="view-button"> <a href="https://battasrikanth.github.io/toDoList/">View</a></button>
+      </div>
+      <p class="projecttitle">ToDoList</p>
+    </div>
+    <div class="projectcard5">  <div class="thumbnail">
+      <img src="images/Calculator.png" >
+      <button class="view-button"> <a href="https://battasrikanth.github.io/calculator/">View</a></button>
+      </div>
+      <p class="projecttitle">Calculator</p>
+    </div>
+   <div class="projectcard6">  <div class="thumbnail">
+      <img src="images/formtmb.png" >
+      <button class="view-button"> <a href="https://battasrikanth.github.io/responsiveForm/">View</a></button>
+      </div>
+      <p class="projecttitle">Responsive form</p>
+    </div>
+    <div class="projectcard7">  <div class="thumbnail">
+      <img src="images/googletmb.png" >
+      <button class="view-button"> <a href="https://battasrikanth.github.io/Google-Clone/">View</a></button>
+      </div>
+      <p class="projecttitle">Google Home Page Clone</p>
+    </div>
+    <div class="projectcard8">  <div class="thumbnail">
+      <img src="images/youtubetmb.png" >
+      <button class="view-button"> <a href="https://battasrikanth.github.io/Youtube-UI-Clone/">View</a></button>
+      </div>
+      <p class="projecttitle">YouTube UI Clone</p>
+    </div>
+    
   </section>
   <section  id="cntctm" class="sec4">
     <p class="section-intro">Get In Touch</p>
@@ -221,8 +227,10 @@
   <footer>
    <p class="footer">Copyright &copy; 2024 SrikanTh BaTTa. All Rights Reserved.</p>
 </footer> 
-  <script src="portfolio.js"></script>
+<script type="module" src="portfolio.js"></script>
+
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
   </body>
 </html>
+
